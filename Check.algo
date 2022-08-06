@@ -1,0 +1,10 @@
+Tab= [60,30,70,80,90];
+
+for (i=1 i<Tab.length-1,i++)
+Temp=T[i]
+j=i-1
+Whime(Temp<T[j]&&j>=0)
+T[j+1]=T[j]
+j=j-1
+Endwhile
+T[j+1]=Temp
